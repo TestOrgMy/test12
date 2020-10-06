@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Test12
+  description: Test go
+  annotations: 
+    github.com/project-slug: TestOrgMy/test12
+    backstage.io/github-actions-id: TestOrgMy/test12
+spec:
+  type: service
+  lifecycle: experimental
+  owner: TestOrgMy
